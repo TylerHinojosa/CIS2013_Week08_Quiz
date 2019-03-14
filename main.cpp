@@ -4,8 +4,8 @@
 using namespace std;
 
 int main(){
-		iftream inStream;
-		oftream outStream;
+		ifstream inStream;
+		ofstream outStream;
 	
 		inStream.open("info.dat");
 		int bigA = 0, bigF = 0, smallA = 0, smallB = 0, total = 0;
